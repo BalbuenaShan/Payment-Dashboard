@@ -1,0 +1,27 @@
+.payment-success {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.success-icon img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly darken on hover */
+}

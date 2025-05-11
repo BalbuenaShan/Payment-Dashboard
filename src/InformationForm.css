@@ -1,0 +1,73 @@
+.information-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    margin: auto;
+}
+
+.logo {
+    display: block; /* Center the logo */
+    margin: 0 auto 0px; /* Add margin below the logo */
+    margin-bottom: -50px;
+    margin-top: -20px;
+    height: 150px; /* Set a height for the logo */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 48%; /* Adjust width for two-column layout */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 50px; /* Add some space above the button group */
+}
+
+button {
+    width: 48%; /* Make buttons take up half the width each */
+    padding: 12px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: #6c757d; /* Secondary button color for Back */
+}
+
+button:disabled {
+    background-color: #a0a0a0;
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly darken on hover */
+}

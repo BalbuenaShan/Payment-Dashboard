@@ -1,0 +1,83 @@
+html, body {
+    height: 100%; /* Ensure the body and html take the full height */
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* Set the gradient background */
+}
+
+body {
+    display: flex; /* Use flexbox to center the form */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.payment-form {
+    background: white; /* Set the form background to white for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%; /* Allow responsiveness */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.card-logos img {
+    width: 50px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure responsiveness */
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Increased bottom margin for better spacing */
+}
+
+.form-group {
+    width: 48%; /* Adjust width for two-column layout */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better visual appeal */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+}
+
+.terms-group {
+    margin: 20px 0; /* Added top and bottom margin for spacing */
+}
+
+.paymentbutton {
+    width: 100%;
+    padding: 12px; /* Increased padding for better button size */
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paymentbutton:disabled {
+    background-color: #a0a0a0; /* Disabled state color */
+}
+
+.paymentbutton:hover:not(:disabled) {
+    opacity: 0.9; /* Slightly darken on hover when not disabled */
+}
